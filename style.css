@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 16px;
+}
+
+p {
+  font-size: calc((100vw - 32px) / 15);
+}
+
+p + p {
+  margin-top: 1em;
+}
